@@ -1,8 +1,8 @@
 
     body
     {
-        margin-left:auto; 
-        margin-right:auto; 
+        margin-left:25px; 
+        margin-right:25px; 
         background-image: url("pictures/coro_3.jpg");
             background-attachment: fixed;
             background-color: #008080;  
@@ -13,9 +13,9 @@
 
     .header {
         text-align:center; 
-        height:60px; 
-        width:90%; 
-        margin-left:auto; 
+        height:100px; 
+        width:95%; 
+        margin-left:5%; 
         position:fixed;
         background:#008080; 
         border:1px solid #555;  
@@ -30,7 +30,7 @@
 
     .footer {
         position: floating;  
-        width:85%; 
+        width:95%; 
             margin-left:7.5%; 
         bottom: 1; 
         padding-top: 10px;
@@ -54,4 +54,7 @@
                      0 20px 20px rgba(0,0,0,.15);
     }
 
-  
+    p {
+        text-align: center;
+    }
+    
